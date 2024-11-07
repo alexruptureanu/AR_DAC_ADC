@@ -1,0 +1,67 @@
+# This file is machine-generated - editing it directly is not advised
+
+julia_version = "1.11.1"
+manifest_format = "2.0"
+project_hash = "cbf1b4ba52aa400bd9b9f37cdf284e369d7e1fa6"
+
+[[deps.Artifacts]]
+uuid = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+version = "1.11.0"
+
+[[deps.CompilerSupportLibraries_jll]]
+deps = ["Artifacts", "Libdl"]
+uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
+version = "1.1.1+0"
+
+[[deps.Dates]]
+deps = ["Printf"]
+uuid = "ade2ca70-3891-5945-98fb-dc099432e06a"
+version = "1.11.0"
+
+[[deps.HidApi]]
+deps = ["hidapi_jll"]
+git-tree-sha1 = "8de157db8813da30ea1a8c10fd9414303147a180"
+uuid = "39e74766-396e-420b-955c-dcb1d9319e05"
+version = "1.3.0"
+
+[[deps.JLLWrappers]]
+deps = ["Artifacts", "Preferences"]
+git-tree-sha1 = "be3dc50a92e5a386872a493a10050136d4703f9b"
+uuid = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
+version = "1.6.1"
+
+[[deps.Libdl]]
+uuid = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+version = "1.11.0"
+
+[[deps.Preferences]]
+deps = ["TOML"]
+git-tree-sha1 = "9306f6085165d270f7e3db02af26a400d580f5c6"
+uuid = "21216c6a-2e73-6563-6e65-726566657250"
+version = "1.4.3"
+
+[[deps.Printf]]
+deps = ["Unicode"]
+uuid = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+version = "1.11.0"
+
+[[deps.TOML]]
+deps = ["Dates"]
+uuid = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
+version = "1.0.3"
+
+[[deps.Unicode]]
+uuid = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
+version = "1.11.0"
+
+[[deps.hidapi_jll]]
+deps = ["Artifacts", "JLLWrappers", "Libdl", "libusb_jll"]
+git-tree-sha1 = "7787be69fe95a85b2a81ffaf37ca5fef69519a79"
+uuid = "fc16ec7e-3cba-5ca4-a17a-1acd8165bbee"
+version = "0.14.0+0"
+
+[[deps.libusb_jll]]
+deps = ["Artifacts", "CompilerSupportLibraries_jll", "JLLWrappers", "Libdl"]
+git-tree-sha1 = "ffe98589382e72dadbeea3599f38c0bfffb291f4"
+uuid = "a877fdc9-fe69-5ed6-b93d-11ecd0dc2d49"
+version = "1.0.27+0"

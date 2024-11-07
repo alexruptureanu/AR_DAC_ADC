@@ -1,0 +1,12 @@
+name = "AR_ADC_DAC"
+uuid = "5ba63a24-5804-4067-bc34-388a9bb43797"
+authors = ["aruptureanu "]
+version = "0.1.0"
+
+[deps]
+HidApi = "39e74766-396e-420b-955c-dcb1d9319e05"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+
+[compat]
+HidApi = "1.3.0"
+Printf = "1.11.0"
